@@ -6,16 +6,16 @@
 
 ```
 promoter = "TTAAAATTTAAAATATAAAAAA"
-5_prime_UTR = "AAAAAGGGGGTTTCCCC"
+five_prime_UTR = "AAAAAGGGGGTTTCCCC"
 start_codon = "ATG"
 exon1 = "GTTCAAATCGGAAAAA"
 intron = "AAAAAAGGGGTGTATATAT"
 exon2 = "TGCGACTGACG"
 stop_codon = "TAG"
-3_prime_UTR = "AAAAATTTGAATATAAAAAAA"
+three_prime_UTR = "AAAAATTTGAATATAAAAAAA"
 
-my_fav_gene = promoter + 5_prime_UTR + start_codon + exon1 + \
-              intron + exon2 + stop_codon + 3_prime_UTR
+my_fav_gene = promoter + five_prime_UTR + start_codon + exon1 + \
+              intron + exon2 + stop_codon + three_prime_UTR
 
 print("My favourite gene sequence is as follows:")
 print(my_fav_gene)
